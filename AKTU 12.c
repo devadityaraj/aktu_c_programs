@@ -16,6 +16,4 @@ void main() {
 
  getch();
        
-} getch();
-       
-}
+} 
