@@ -57,6 +57,4 @@ void main()
 	
 	getch();
 	
-}		Miracle");
-	}
-}		
+}	
