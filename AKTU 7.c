@@ -1,6 +1,8 @@
 #include <stdio.h>
+#include <conio.h>
 void main() {
 	int num1,num2,num3;
+	clrscr();
 	printf("Enter three numbers: ");
 	scanf("%d%d%d", &num1,&num2,&num3);
 	if(num1>=num2 && num1>=num3) {
@@ -12,4 +14,5 @@ void main() {
 	else{
 		printf("The greatest number: %d\n",num3);
 	}
+	getch();
 }
