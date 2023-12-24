@@ -43,6 +43,7 @@ void main()
 		default:
 		 printf("ERROR"); 
 	}
+	getch();
 }
 		
 		
