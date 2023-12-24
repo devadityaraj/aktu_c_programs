@@ -17,4 +17,4 @@ void main()
 	printf("\nStudent obtained %d marks out of 500",sum);
 	percentage=sum*100/500;
 	printf("\nStudent obtained %d percentage",percentage);
-}}
+}
