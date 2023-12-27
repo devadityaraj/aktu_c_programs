@@ -1,6 +1,6 @@
-ADITYA RAJ
-Programming For The Problem Solving
-Roll No. - 11
+ADITYA RAJ - 
+Programming For The Problem Solving || 
+Roll No. - 11  ||
 Admission Number = 23GCEBCSAIML076
 This GitHub resporitery contains the all programs of C given by AKTU.
 //Program(s) may or maynot contains the conio header.
