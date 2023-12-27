@@ -1,16 +1,16 @@
 #include <stdio.h>
 #include <conio.h>
 
-int main() {
-    int num;
-    int factorial=1;
+void main() {
+    int number,i,factorial;
     clrscr();
-    printf("Enter a number to find the factorial: ");
-    scanf("%d", &num);
-    
-        for (int i = 1; i <= num; ++i) {
+    factorial=1;
+    printf("Enter the number to find the factorial: ");
+    scanf("%d",&number);
+    for(i=1; i<=number; ++i)
+        { 
             factorial *= i;
         }
-        printf("Factorial of %d = %d\n", num, factorial);
+    printf("The factorial of %d is %d",number,factorial);
     getch();
 }
