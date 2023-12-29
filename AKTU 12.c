@@ -6,13 +6,13 @@ void main() {
     int sum=0;
     clrscr();
     printf("Enter number of Any Digits: ");
-    scanf("%d", &num);
+    scanf("%d",&num);
     
     while (num > 0) {
         digit = num % 10;
         sum += digit;
     }
-    printf("Sum of the digits: %d\n", sum);
+    printf("Sum of the digits: %d\n",sum);
 
  getch();
        
