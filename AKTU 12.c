@@ -11,6 +11,7 @@ void main() {
     while (num > 0) {
         digit = num % 10;
         sum += digit;
+        num /= 10;
     }
     printf("Sum of the digits: %d\n",sum);
 
