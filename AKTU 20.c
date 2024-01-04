@@ -1,7 +1,9 @@
 #include <stdio.h>
+#include <conio.h>
 void main()
 {   
     int choice;
+    clrscr();
     printf("Enter 1 for decimal to binary or 2 for binary to decimal: ");
     scanf("%d",&choice);
     if(choice==1)
@@ -39,4 +41,5 @@ void main()
     else {
         printf("Please enter the valid choice only.\n");
     }
+    getch();
 }
