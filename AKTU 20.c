@@ -1,9 +1,7 @@
 #include <stdio.h>
-#include <conio.h>
 void main()
 {   
     int choice;
-    clrscr();
     printf("Enter 1 for decimal to binary or 2 for binary to decimal: ");
     scanf("%d",&choice);
     if(choice==1)
@@ -21,7 +19,7 @@ void main()
             decimal /= 2;
             base *= 10;
         }
-        printf("Binary number for %d is: %lld",decimal,binary);
+        printf("Binary number is: %lld",binary);
     }
     else if(choice==2) {
         long long binary;
@@ -36,10 +34,9 @@ void main()
             binary /= 10;
             base *= 2;
             }
-        printf("Decimal number for %lld is: %d",binary,decimal);
+        printf("Decimal number is: %d",decimal);
     }
     else {
         printf("Please enter the valid choice only.\n");
     }
-  getch();
 }
