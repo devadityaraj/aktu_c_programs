@@ -3,6 +3,7 @@
 void main()
 {
     int s=0,i,j,a,b,h;
+    clrscr();
     printf("program to print the armstrong number from 1 to 100");
     for(i=100;i>0;i--)
     {
