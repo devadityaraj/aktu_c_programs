@@ -4,7 +4,7 @@ void main()
 {
     int s=0,i,j,a,b,h;
     clrscr();
-    printf("program to print the armstrong number from 1 to 100");
+    printf("Program to print the armstrong number from 1 to 100");
     for(i=100;i>0;i--)
     {
             h=i;
@@ -19,7 +19,7 @@ void main()
             }
             if(h==s)
             {
-               printf("\nnumber %d is armstrong number",h);
+               printf("\nnumber %d is armstrong number.",h);
             }
             }
             else
@@ -31,7 +31,7 @@ void main()
                 }
                 if(h==s)
                 {
-                    printf("\nnumber %d is armstrong number",h);
+                    printf("\nnumber %d is armstrong number.",h);
                 }
             }
             s=0;
