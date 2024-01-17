@@ -22,7 +22,6 @@ void main() {
        int value=strcmp(password,PASSWORD);  
    if(value==0) {
    printf("\n\nLogin Success!!");
-   do {
    printf("\n\nWelcome, MASTER Aditya Raj! \n\n1. Add Money \n2. Withdraw Money \n3. Check Balance \n4. Logout \n\nEnter Your Choice Sir: ");
    scanf("%d",&choice);
    switch(choice) {
@@ -65,7 +64,9 @@ void main() {
     
     case 4:
     {
-        printf("Logout Sucess");
+        printf("Logout Succes\n\n");
+        
+        main();
     }
     
     default: {
@@ -74,8 +75,6 @@ void main() {
        
    }
    
-   
-   }  while(choice = 4);
 } else {
     printf("Wrong User ID or Password \n\n");
     main();
@@ -86,4 +85,3 @@ void main() {
 }
 
 }
-
