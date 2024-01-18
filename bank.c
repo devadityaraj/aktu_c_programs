@@ -34,8 +34,7 @@ void main() {
            printf("\n\n%0.2f is addedd to your account!",add_ammount);
            printf("\n\nTotal balance is: %0.2f",balance);
        }
-     break;
-     
+     break;     
      case 2:
      { 
          if(balance < 500) {
@@ -55,26 +54,22 @@ void main() {
            }
          }
      }
-    break;
-    
+    break;    
     case 3:
     {
         printf("Your Current Account Balance is: %0.2f",balance);
-    }
-    
+        break;
+    }    
     case 4:
     {
         printf("Logout Succes\n\n");
-        
         main();
-    }
-    
+        break;
+    }    
     default: {
         printf("Please Give Valid Choice");
-    }
-       
-   }
-   
+    }       
+   }   
 } else {
     printf("Wrong User ID or Password \n\n");
     main();
@@ -82,6 +77,5 @@ void main() {
 } else  {
    printf("Wrong User ID or Password \n\n");
    main();
-}
-
+   }
 }
