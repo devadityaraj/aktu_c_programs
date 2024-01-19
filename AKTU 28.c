@@ -4,7 +4,7 @@
 
 
 void length() {
-  char str[150],
+  char str[150];
   printf("Enter string: ");
   gets(str);
   printf("\nLength of string is: %d",strlen(str));
@@ -23,16 +23,14 @@ void concatetion() {
     printf("Enetr the first string: ");
     gets(str1);
     printf("\nEnter the second string: ");
-    gets(str2);
+   gets(str2);
     printf("\nAfter concatention String is: %s",strcat(str1,str2));
 }
     
-
-}
 void main() {
     int choice;
-    printf("Enter your choice: \n");
-    printf("1. To find length of the string. \n2. To copy the string \n 3. To concateion of strings");
+    printf("1. To find length of the string. \n2. To copy the string. \n3. To concateion of strings.\n");
+    printf("\nEnter your choice: ");
     scanf("%d",&choice);
     if(choice==1) {
         length();
@@ -44,7 +42,7 @@ void main() {
         concatetion();
     }
     else {
-        printf("wrong choice please enter the valid choice");
+        printf("wrong choice please enter the valid choice\n\n");
         main();
     }
     
