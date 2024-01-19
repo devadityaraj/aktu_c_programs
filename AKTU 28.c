@@ -4,14 +4,14 @@
 
 
 void length() {
-  char str[150];
+  char str[100];
   printf("Enter string: ");
   gets(str);
   printf("\nLength of string is: %d",strlen(str));
 }
 
 void copy() {
-    char str1[150],str2[150];
+    char str1[100],str2[100];
     printf("Enter the string to copy: ");
     gets(str1);
     str2[100] = strcpy(str2,str1);
